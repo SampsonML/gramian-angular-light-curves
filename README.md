@@ -1,3 +1,3 @@
 # Time-series to image transformations for Photometric light curve classification
 
-![Transform](gaf.pdf)
+![Transform](gaf.png)
