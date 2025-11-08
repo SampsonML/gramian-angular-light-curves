@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project demonstrates how **multi-band 1D photometric light curves** can be transformed into **2D image representations** suitable for convolutional neural networks (CNNs) and residual networks (ResNets).  
+This project demonstrates how **multi-band 1D photometric light curves** can be transformed into **2D image representations** suitable for convolutional neural networks (CNNs) and residual networks (ResNets).
 By converting temporal signals into structured images via **Gramian Angular Fields (GAF)** and **Markov Transition Fields (MTF)**, we can apply image-based deep learning methods to classify **astronomical transient events** such as supernovae, AGN, tidal disruption events, and more.
 
 The dataset originates from the [Kaggle PLAsTiCC 2018 challenge](https://www.kaggle.com/competitions/PLAsTiCC-2018), which aimed to classify simulated astronomical transients across multiple wavelength bands.
@@ -38,5 +38,4 @@ Images and labels are stored in a compressed `.npz` file which was made with the
 ```python
 data = np.load('gaf-mtf-training_images_labels.npz', allow_pickle=True)
 ```
-Not this file is too large for github so storing on google-drive or dropbox and grab from there.
-
+Note this file is too large for github so storing on google-drive or dropbox and grab from there.
